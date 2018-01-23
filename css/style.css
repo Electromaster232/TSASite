@@ -4,7 +4,7 @@ body {
 	margin:0;
 	padding:0;
 	width:100%;
-	color:#28ecfa;
+	color:#fff;
 	font:normal 12px/1.5em "Liberation sans", Arial, Helvetica, sans-serif;
 	background:#1ca2ce url(../images/main_bg.gif) repeat-x left top;
 }
@@ -162,7 +162,7 @@ h1 small {
 	padding-bottom:0;
 	font-size:33px;
 	line-height:1.2em;
-	color:#fffffe;
+	color:#fff;
 }
 .content .mainbar div.img {
 	padding:12px 0 0;
@@ -204,23 +204,25 @@ ul.sb_menu, ul.ex_menu {
 	margin:0;
 	padding:0;
 	list-style:none;
-	color:#28ecfa;
+	color:#fff;
 }
 ul.sb_menu li, ul.ex_menu li {
 	margin:0;
 }
 ul.sb_menu li {
-	padding:8px 0;
-	width:220px;
+	padding: 8px 0;
+	width: 220px;
+	color: #000000;
 }
 ul.ex_menu li {
 	padding:4px 0;
 }
 ul.sb_menu li a {
-	color:#28ecfa;
+	color:#fff;
 	text-decoration:none;
 	margin-left:-16px;
 	padding:4px 8px 4px 16px;
+	text-decoration: underline;
 }
 ul.ex_menu li a {
 	font-weight:bold;
@@ -474,9 +476,9 @@ ol li .send {
 	background-color:transparent;
 }
 .footer_resize a:hover {
-	color:#28ecfa;
-	background-color:transparent;
-	text-decoration:none;
+	color: #000000;
+	background-color: transparent;
+	text-decoration: none;
 }
 .footer_resize .lf {
 	float:left;
@@ -484,6 +486,5 @@ ol li .send {
 .footer_resize .rf {
 	float:right;
 }
-a {
-	outline:none;
+.image {
 }
